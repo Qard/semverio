@@ -1,0 +1,28 @@
+{
+  "name": "semverio",
+  "version": "0.0.0-development",
+  "description": "Client for interacting with semver.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "author": "Stephen Belanger <admin@stephenbelanger.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "semver": "^5.4.1",
+    "tap": "^10.7.2",
+    "semantic-release": "^8.0.3"
+  },
+  "dependencies": {
+    "got": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Qard/semverio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qard/semverio/issues"
+  },
+  "homepage": "https://github.com/Qard/semverio#readme"
+}
