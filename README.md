@@ -1,5 +1,7 @@
 # semverio
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Qard/semverio.svg)](https://greenkeeper.io/)
+
 This is a simple client for semver.io, which allows getting current stable and
 unstable versions of node.js and several other things. It also allows finding
 a version that matches a semver range, much like you can do with npm packages.
